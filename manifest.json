@@ -1,0 +1,16 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Player Tags for The Hive Murder Mystery",
+        "name": "[PML]HiveMMPlayerTags",
+        "uuid": "32e0eb68-f8e0-4147-b1fb-5e53ee13d350",
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "a6bbd655-590e-4c7e-9795-75dc78e5fd27",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}

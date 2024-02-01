@@ -1,0 +1,110 @@
+{
+  "namespace": "rainbowpieui_hud",
+
+  "playerlist_item_panel/player_name_stack_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "tag_hive_mm_xe@rainbowpie_ui_common.title_label": {
+              "visible": false,
+              "text": "[XE]",
+              "color": [ 1.0, 0.333, 0.333 ],
+              "bindings": [
+                {
+                  "binding_name": "#gamertag",
+                  "binding_type": "collection",
+                  "binding_collection_name": "players_collection"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "('|' + #gamertag + '|')",
+                  "target_property_name": "#gamertag_formatted"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not (($rainbowpie_ui_moduleflag_hive_mm_player_tags_XE - #gamertag_formatted) = $rainbowpie_ui_moduleflag_hive_mm_player_tags_XE))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "tag_hive_mm_sp@rainbowpie_ui_common.title_label": {
+              "visible": false,
+              "text": "[SP]",
+              "color": [ 1.0, 0.333, 0.333 ],
+              "bindings": [
+                {
+                  "binding_name": "#gamertag",
+                  "binding_type": "collection",
+                  "binding_collection_name": "players_collection"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "('|' + #gamertag + '|')",
+                  "target_property_name": "#gamertag_formatted"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not (($rainbowpie_ui_moduleflag_hive_mm_player_tags_SP - #gamertag_formatted) = $rainbowpie_ui_moduleflag_hive_mm_player_tags_SP))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "tag_hive_mm_tm@rainbowpie_ui_common.title_label": {
+              "visible": false,
+              "text": "[TE]",
+              "color": [ 1.0, 0.333, 0.333 ],
+              "bindings": [
+                {
+                  "binding_name": "#gamertag",
+                  "binding_type": "collection",
+                  "binding_collection_name": "players_collection"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "('|' + #gamertag + '|')",
+                  "target_property_name": "#gamertag_formatted"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not (($rainbowpie_ui_moduleflag_hive_mm_player_tags_TE - #gamertag_formatted) = $rainbowpie_ui_moduleflag_hive_mm_player_tags_TE))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "tag_hive_mm_pk@rainbowpie_ui_common.title_label": {
+              "visible": false,
+              "text": "[PK]",
+              "color": [ 1.0, 0.333, 0.333 ],
+              "bindings": [
+                {
+                  "binding_name": "#gamertag",
+                  "binding_type": "collection",
+                  "binding_collection_name": "players_collection"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "('|' + #gamertag + '|')",
+                  "target_property_name": "#gamertag_formatted"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not (($rainbowpie_ui_moduleflag_hive_mm_player_tags_PK - #gamertag_formatted) = $rainbowpie_ui_moduleflag_hive_mm_player_tags_PK))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

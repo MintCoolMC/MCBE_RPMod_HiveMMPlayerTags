@@ -1,0 +1,7 @@
+{
+  "namespace": "rainbowpie_module_hive_player_tags",
+
+  "hive_player_tags": {
+    "type": "panel"
+  }
+}

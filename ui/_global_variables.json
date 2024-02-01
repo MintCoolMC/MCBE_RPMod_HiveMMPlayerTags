@@ -1,0 +1,8 @@
+{
+  // 玩家名稱，用|分割，開頭和結尾也要加
+  "$rainbowpie_ui_moduleflag_hive_mm_player_tags_XE": "|BOY VIVEK YT848|HyperIsGod2256|Shravan012|Vamoy|J2WP|YunHai 12|", // ESP / XRAY
+  "$rainbowpie_ui_moduleflag_hive_mm_player_tags_SP": "|Onwyu|", // SPEED HACK
+  "$rainbowpie_ui_moduleflag_hive_mm_player_tags_TE": "|YesHarmanPie952|Saimerking25|Rewgrew|Yani009157|GreatCam676|XAKUMAX1500|ThinnerIronIngot5878|km6i|qqn7|FlashySparkler9726|MylesYaBoi|MalibuMimi|DeadLight Em|GraciousPufferfish8768|uhm hazel|HASHM11|TaiwanSeCa|Andy27854|", // TEAMING
+  "$rainbowpie_ui_moduleflag_hive_mm_player_tags_PK": "" // PVP / KillAura / Reach
+}
+
